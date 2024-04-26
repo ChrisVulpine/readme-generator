@@ -1,10 +1,10 @@
-// TODO: Include packages needed for this application
+// Packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
 const chalk = require('chalk');
 const readmeGen = require("./utils/generateMarkdown");
 
-// TODO: Create an array of questions for user input
+// Questions
     const questions = [
     {
         type: 'confirm',
@@ -22,7 +22,7 @@ const readmeGen = require("./utils/generateMarkdown");
     },
     {   type: 'input',
         name: 'Installation_Instructions',
-        message: `Wow! Your project sounds incredible! Now provide installation instructions:`
+        message: `Wow! Your project sounds incredible! What are the installation instructions:`
     },
     {   type: 'input',
         name: 'Usage_Information',
@@ -54,25 +54,21 @@ const readmeGen = require("./utils/generateMarkdown");
     },
 ]
 
-
-// TODO: Create a function to write README file
+// Function to write README file
 function writeToFile(filename, content) {
-    // const markdownContent = readmeGen.generateMarkdown(data);
-//     const content = `# ${data.title}
 
     fs.writeFile(filename, content, (err) =>
     err ? console.log(err) : console.log('Nice work! Your Readme has been generated. It was a pleasure working with you. ^-^ Enjoy!')
     );
 };
 
-// TODO: Create a function to initialize app
+// Function to initialize app
 function init() {
     inquirer.prompt(questions)
     .then((answers) => {
         const createReadme = readmeGen(answers);
         writeToFile('README.md', createReadme);
     })
-    
 }
 
 // Function call to initialize app
