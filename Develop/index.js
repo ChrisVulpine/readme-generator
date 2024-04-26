@@ -61,7 +61,7 @@ function writeToFile(filename, content) {
 //     const content = `# ${data.title}
 
     fs.writeFile(filename, content, (err) =>
-    err ? console.log(err) : console.log('Nice work! Your Readme has been generated ^-^ Enjoy!')
+    err ? console.log(err) : console.log('Nice work! Your Readme has been generated. It was a pleasure working with you. ^-^ Enjoy!')
     );
 };
 
