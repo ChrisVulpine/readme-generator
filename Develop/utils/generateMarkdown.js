@@ -62,7 +62,7 @@ function renderLicenseSection(license) {
 // Function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title} 
-
+  ${renderLicenseSection(data.license)}
   ## Description
   ${data.Description}
   
