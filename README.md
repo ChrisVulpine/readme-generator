@@ -1,35 +1,58 @@
-# Professional README Generator Starter Code
+# README Generator 
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+  [![Static Badge](https://img.shields.io/badge/Github-ChrisVulpine-darkgreen?style=flat&logo=github)](https://github.com/ChrisVulpine)
 
-[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+  ## Description
+  This project will be used to generate professional quality README files using Microsoft's VS Code's README as a guideline. All necessary information including badges will be able to be generated through this command-line application.
+  
+  ## Table of Contents
+  
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contribution](#contribution)
+  - [Tests](#tests)
+  - [License](#license)
+  - [Credits](#credits)
+  - [Questions](#questions)
+  
+  ## Installation
+  Clone this repository to your device and install the dependencies using an npm install.
+  
+  ## Usage
+  After navigating to the project, run the following command: 
+  ``` 
+  node index.js.
+  ```
+   Prompts will help you gather all necessary information for the different sections of your README. Once the questions are answered, the README will be generated in the same directory as the index.js file. 
+  
+  ## Contribution
+  This application is not open for contribution at this time.
+  
+  ## Tests
+  This project has no tests to run at this time.
 
-## Acceptance Criteria
+  ## Credits
+* Top 5 software licenses: https://muratkaragozgil.medium.com/software-licenses-on-github-which-one-should-you-choose-3d4cfbb6c2f9
 
-Application will be invoked by: 
+* Inquirer Chalk: https://www.npmjs.com/package/inquirer-chalk-pipe
 
-```
-node index.js
+* Inquirer NPM: https://www.npmjs.com/package/inquirer
 
-```
+* General Reference: https://www.w3schools.com/
 
-GIVEN a command-line application that accepts user input<br>
+* Readme Badge Generation: https://shields.io/
 
-* WHEN I am prompted for information about my application repository<br>
-THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+* License Details: https://opensource.org/ & https://www.gnu.org/ 
 
-* WHEN I enter my project title<br>
-THEN this is displayed as the title of the README
+* Professional README guide: https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 
-* WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions<br>
-THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
 
-* WHEN I choose a license for my application from a list of options<br>
-THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
+## License
+This project is covered under the [MIT](https://opensource.org/licenses/MIT) license.
 
-* WHEN I enter my GitHub username<br>
-THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-* WHEN I enter my email address<br>
-THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
-
-* WHEN I click on the links in the Table of Contents<br>
-THEN I am taken to the corresponding section of the README
+## Questions
+Got questions? Use the info below to contact me!<br>
+GitHub: [@ChrisVulpine](https://github.com/ChrisVulpine/)<br>
+Email: [Chrisleach1191@gmail.com](mailto:Chris1191@gmail.com)
