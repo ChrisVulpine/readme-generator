@@ -21,7 +21,7 @@
   ## Usage
   After navigating to the project, run the following command: 
   ``` 
-  node index.js.
+  node index.js
   ```
    Prompts will help you gather all necessary information for the different sections of your README. Once the questions are answered, the README will be generated in the same directory as the index.js file. 
   

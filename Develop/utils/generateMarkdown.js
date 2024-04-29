@@ -91,7 +91,7 @@ ${renderLicenseSection(data.license)}
 
 ## Questions
 Got questions? Use the info below to contact me!<br>
-GitHub: [@${data.githubUser}](https://github.com/${data.githubUser}/)\n\n <br>
+GitHub: [@${data.githubUser}](https://github.com/${data.githubUser}/)\n\n
 Email: [${data.email}](mailto:${data.email})\n`;
 }
 
