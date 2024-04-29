@@ -24,6 +24,8 @@
   node index.js
   ```
    Prompts will help you gather all necessary information for the different sections of your README. Once the questions are answered, the README will be generated in the same directory as the index.js file. 
+
+   You can view a video demo of the application here: [Demo](https://drive.google.com/file/d/1nAtON41LWyHLU0ylW2voRzOuYX_QXd5w/preview)
   
   ## Contribution
   This application is not open for contribution at this time.
